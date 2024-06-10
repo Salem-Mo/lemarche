@@ -12,7 +12,7 @@ app.use(mainRoutes);
 
 // DB Connection
 // mongoose.connect("mongodb://localhost:27017/todo");
-mongoose.connect("mongodb+srv://salemmohamed:Sa12&Sa12@lemarche.xlhabtr.mongodb.net/todo")
+mongoose.connect("mongodb+srv://salemmohamed:Sa12&Sa12@lemarche.xlhabtr.mongodb.net/todo?retryWrites=true&w=majority")
 const db = mongoose.connection;
 db.on("error", (err) => {
     console.log(`Connection Error:`);
