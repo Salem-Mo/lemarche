@@ -1,0 +1,33 @@
+[
+    {
+      "name": "Buy groceries",
+      "description": "Milk, Bread, Cheese, Eggs, Fruits",
+      "completed": false
+    },
+    {
+      "name": "Doctor Appointment",
+      "description": "Annual check-up at Dr. Smith's clinic",
+      "completed": true
+    },
+    {
+      "name": "Finish project report",
+      "description": "Complete the final draft of the project report for submission",
+      "completed": false
+    },
+    {
+      "name": "Workout",
+      "description": "1-hour session at the gym",
+      "completed": true
+    },
+    {
+      "name": "Call plumber",
+      "description": "Fix the leaking sink in the kitchen",
+      "completed": false
+    },
+    {
+      "name": "Book flight tickets",
+      "description": "Book tickets for the vacation to Hawaii",
+      "completed": true
+    }
+  ]
+  
